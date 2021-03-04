@@ -1,0 +1,7 @@
+{
+  "SEMUX_API_ADDR": "http://localhost:5171",
+  "SEMUX_API_USER": "",
+  "SEMUX_API_PASS": "",
+  "API_SEMUX_ONLINE_PORT": "3000",
+  "API_SEMUX_ONLINE_HOST": "localhost"
+}
