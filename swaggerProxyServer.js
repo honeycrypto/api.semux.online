@@ -51,6 +51,10 @@ apiProxy["/v2.2.0"] = {
 apiProxy["/v2.3.0"] = {
   ...apiProxy["/v2.2.0"],
 };
+apiProxy["/v2.4.0"] = {
+  ...apiProxy["/v2.3.0"],
+  "/broadcast-raw-transaction": ["get"],
+};
 
 app.get("/", proxyMiddleware);
 app.get("/favicon*", proxyMiddleware);
